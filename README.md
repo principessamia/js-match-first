@@ -1,12 +1,9 @@
-# find-first
+# match-first
 
 Retrieve the first item in an array that matches a callback function.
 
 Returns `null` if a matching element is not found.
 
-File size: **414 bytes**.<br/>
-Supported platforms: **server and browser**.<br/>
-Supported language versions: **ES3 and above**.
 
 ## Installation
 
@@ -27,3 +24,7 @@ function matcher(i) {
 findFirst(arr1, matcher); // '1'
 findFirst(arr2, matcher); // null
 ```
+
+File size: **414 bytes**.<br/>
+Supported platforms: **server and browser**.<br/>
+Supported language versions: **ES3 and above**.
